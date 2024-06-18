@@ -7,7 +7,7 @@ export const App = () => {
     <motion.div
       initial={{ opacity: 0.5 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 3 }}
+      transition={{ duration: 2 }}
     >
       <section className="flex justify-center items-center h-screen bg-[#d6e2f0] font-Outfit">
         <div className=" h-[500px] w-[320px] rounded-[18px] bg-white shadow-custom">

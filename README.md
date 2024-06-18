@@ -1,30 +1,50 @@
-# React + TypeScript + Vite
+#  QR code component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This small project was created using React, TypeScript and Vite.js, a fast and modern build tool for web projects.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started with the project, you'll need to use the following scripts:
 
-## Expanding the ESLint configuration
+### Development Server
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+To start the development server, run:
 ```
+pnpm run dev
+```
+This command starts a local development server with hot module replacement, allowing you to see your changes in real-time as you edit your code.
+### Build for Production
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To start the development server, run:
+```
+pnpm run build
+```
+This command bundles your application into static files for production. It optimizes the output for the best performance.
+### Preview Production Build
+
+To start the development server, run:
+```
+pnpm run preview
+```
+This command serves the files generated from the build command locally, allowing you to inspect the production build and ensure it works as expected before deploying.
+
+### Screenshot
+
+![](public/screenShot-desktop-qr.png)
+
+### Links
+
+- Live Site URL: [Deploy at Vercel here](https://master--qr-code-component-gg.netlify.app/)
+- Solution URL: [Repository Github here](https://github.com/GonzaloGC/qr-code-component-main)
+
+### Built with
+
+- Semantic HTML5 markup
+- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+- [React](https://reactjs.org/) - JS library
+- [Vite js](https://vitejs.dev/) - Next Generation Frontend Tooling
+
+## Author
+
+- Frontend Mentor - [@GonzaloGC](https://www.frontendmentor.io/profile/GonzaloGC)
+- Twitter - [@gonzaloelias](https://twitter.com/gonzaloelias)
