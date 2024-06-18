@@ -13,7 +13,7 @@ export const App = () => {
         <div className=" h-[500px] w-[320px] rounded-[18px] bg-white shadow-custom">
           <div className="h-full flex flex-col box-border p-[16px] gap-[24px]">
             <img
-              src="/public/image-qr-code.png"
+              src="/image-qr-code.png"
               alt="codigo qr"
               className="w-[286px] h-[286px] rounded-[12px]"
             />
