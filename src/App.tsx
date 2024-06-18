@@ -5,15 +5,15 @@ import { motion } from "framer-motion";
 export const App = () => {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
+      initial={{ opacity: 0.5 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 1.5 }}
+      transition={{ duration: 3 }}
     >
       <section className="flex justify-center items-center h-screen bg-[#d6e2f0] font-Outfit">
         <div className=" h-[500px] w-[320px] rounded-[18px] bg-white shadow-custom">
           <div className="h-full flex flex-col box-border p-[16px] gap-[24px]">
             <img
-              src="src/assets/image-qr-code.png"
+              src="../image-qr-code.png"
               alt="codigo qr"
               className="w-[286px] h-[286px] rounded-[12px]"
             />
